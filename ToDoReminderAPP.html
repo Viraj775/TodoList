@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id='container'>
+            <ul>
+                <li> <img src='img3.png' id='image' width="100px" height="77px" /> </li>
+                <li id="date"></li>
+                <li id="report"> <img src='notify.png' width="42px" height='40px'/> 
+                <span id="performance"></span></li>
+                <li> <input type="text" placeholder="Search your Todo here" id="items"> </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id='frame'>
+        <h1 id="head">Todo List</h1>
+        <div id="header">
+            <label for='search'> Title </label> 
+            <input type='text' class='todo-input' placeholder="Enter your Items" id='search' /> <br> <br> 
+            <label for='date-time-input'> Date </label> 
+            <input type='date' id='due-date' class='date-time-input' />
+            <label for='date-time-input'> Time </label>
+            <input type='time' id='due-time' class='date-time-input' /> <br> <br> 
+            <button id='todo'>Add Todo</button>
+        </div>
+
+        <button onclick="toggleDarkMode()" id="toggle">
+            <img src="dark.png" width="70px" height="50px" />
+        </button>
+
+        <div class='todo-output'></div>
+    </div>
+
+    <!-- Hidden alert list container -->
+    <div id="alert-list" class="alert-list"></div>
+    <div id='perform'>
+        <div id='reporting'> Today's Performance <button id='performance-button'>Check</button> </div> 
+        <p id='task'> Your performance is measured by how many tasks you complete out of the total tasks you have listed. The tasks you mark as done are considered complete. The report shows how many tasks are finished and how many are still pending. </p>   
+        <div id="performance-report"> </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
