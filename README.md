@@ -1,11 +1,11 @@
 Downloand Files & Save on Your Code Editor. 
 
-Features of Todo Reminder App :
+# Features of Todo Reminder App :
 
 1-It Shows Current time on Header Section. 
 2- Provides Alerts of Upcoming Task.
 3- Dark & Light Mode theme Effects.
-4- Search & Filter Todos 
+4- Search & Filter Todos.
 5- Store Information of Upcoming Todos.
 6- Display Performance as per given Task and Task Completion. 
 7. Fully Responsive App
